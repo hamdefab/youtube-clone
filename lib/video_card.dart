@@ -4,16 +4,18 @@ import 'package:youtube_clone/screens/video_page.dart';
 
 class VideoList extends StatelessWidget {
   final List<YoutubeModel> listData;
+  final bool isLandscape;
 
-  const VideoList({this.listData});
-  //const VideoList({Key key, this.listData}) : super(key: key);
+  const VideoList({this.listData, this.isLandscape = false});
 
   @override
   Widget build(BuildContext context) {
     final deviceOrientation = MediaQuery.of(context).orientation;
     return ListView.separated(
+        shrinkWrap: true,
+        physics: ClampingScrollPhysics(),
         itemBuilder: (context, index) {
-          if (deviceOrientation == Orientation.portrait) {
+          if (deviceOrientation == Orientation.portrait || isLandscape) {
             return InkWell(
               onTap: () {
                 Navigator.of(context).push(
@@ -50,7 +52,9 @@ class VideoList extends StatelessWidget {
     return Column(
       children: <Widget>[
         Container(
-          width: MediaQuery.of(context).size.width,
+          width: isLandscape
+              ? MediaQuery.of(context).size.width - 16.0
+              : MediaQuery.of(context).size.width,
           height: 200.0,
           decoration: BoxDecoration(
             image: DecorationImage(

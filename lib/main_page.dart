@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:youtube_clone/screens/explore.dart';
 import 'package:youtube_clone/screens/home.dart';
 
 class MainPage extends StatefulWidget {
@@ -19,7 +20,7 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     List<Widget> _screens = [
       HomeScreen(),
-      Center(child: Text('Explore')),
+      Explore(),
       Center(child: Text('Subsctiption')),
       Center(child: Text('Notification')),
       Center(child: Text('Library')),

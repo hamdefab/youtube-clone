@@ -119,3 +119,59 @@ List<YoutubeModel> youtubeModel = [
     dislikeCount: "39K",
   ),
 ];
+
+List<YoutubeModel> youtubeSubscription = [
+  YoutubeModel(
+    title: "Dune Official Trailer",
+    description:
+        "Beyond fear, destiny awaits. Watch the trailer for the highly anticipated #DuneMovie now. ",
+    thumbnail:
+        "https://i.ytimg.com/vi/n9xhJrPXop4/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLCBR6ILawaT3xzLKbKfCb9ht40raQ",
+    publishedTime: "3 days ago",
+    channelTitle: "Warner Bros. Pictures",
+    channelAvatar:
+        "https://yt3.ggpht.com/a/AATXAJzWoMA3RgR8Qc29M3lA3nMPMXT95BS-lHZEYJc7jw=s100-c-k-c0xffffffff-no-rj-mo",
+    viewCount: "11M views",
+    likeCount: "365K",
+    dislikeCount: "10K",
+  ),
+  YoutubeModel(
+    title: "If Programming Was An Anime Part 2",
+    description: "Get the JomaClass membership: https://www.jomaclass.com/",
+    thumbnail:
+        "https://i.ytimg.com/vi/OTfp2_SwxHk/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCUzpCKBGG53kS9kyxUZAIsLTvDOw",
+    publishedTime: "2 weeks ago",
+    channelTitle: "Joma Tech",
+    channelAvatar:
+        "https://yt3.ggpht.com/a/AATXAJwnVxHV9cR_nofTeCXS3x2H2jRQjH3YEq8sYqpM=s100-c-k-c0xffffffff-no-rj-mo",
+    viewCount: "484K views",
+    likeCount: "45K",
+    dislikeCount: "541",
+  ),
+  YoutubeModel(
+    title: "My Cleanest Setup - RGB Free",
+    description: "This is the cleanest setup I've done to date.",
+    thumbnail:
+        "https://i.ytimg.com/vi/haMV_nkkYsA/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLD-mXTWbph48dVQlacO3wVXJDI1HQ",
+    publishedTime: "2 days ago",
+    channelTitle: "Dave Lee",
+    channelAvatar:
+        "https://yt3.ggpht.com/a/AATXAJwsFn2XyD55vVR6Ykhso93F1qaY-D0NrMDh5B5K4A=s48-c-k-c0xffffffff-no-rj-mo",
+    viewCount: "180K views",
+    likeCount: "18K",
+    dislikeCount: "244",
+  ),
+  YoutubeModel(
+    title: "My Cleanest Setup - RGB Free",
+    description: "This is the cleanest setup I've done to date.",
+    thumbnail:
+        "https://i.ytimg.com/vi/haMV_nkkYsA/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLD-mXTWbph48dVQlacO3wVXJDI1HQ",
+    publishedTime: "2 days ago",
+    channelTitle: "Dave Lee",
+    channelAvatar:
+        "https://yt3.ggpht.com/a/AATXAJwsFn2XyD55vVR6Ykhso93F1qaY-D0NrMDh5B5K4A=s48-c-k-c0xffffffff-no-rj-mo",
+    viewCount: "180K views",
+    likeCount: "18K",
+    dislikeCount: "244",
+  ),
+];
