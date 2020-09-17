@@ -122,6 +122,32 @@ List<YoutubeModel> youtubeModel = [
 
 List<YoutubeModel> youtubeSubscription = [
   YoutubeModel(
+    title: "The Dva Meta Is Back! - Overwatch Streamer Moments Ep. 152",
+    description: "The Dva Meta Is Back! - Overwatch Streamer Moments Ep. 152",
+    thumbnail:
+        "https://i.ytimg.com/vi/E3I9hy93u0Y/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDa-OldpgBT8XzqKwyxHdMcnXyi2A",
+    publishedTime: "1 day ago",
+    channelTitle: "FreshNuts",
+    channelAvatar:
+        "https://yt3.ggpht.com/a/AATXAJwe70IxzyekjT0ySkWO9lB4OyPFl3q3ynwm4JFhPQ=s48-c-k-c0xffffffff-no-rj-mo",
+    viewCount: "20K views",
+    likeCount: "1K",
+    dislikeCount: "15",
+  ),
+  YoutubeModel(
+    title: "My Cleanest Setup - RGB Free",
+    description: "This is the cleanest setup I've done to date.",
+    thumbnail:
+        "https://i.ytimg.com/vi/haMV_nkkYsA/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLD-mXTWbph48dVQlacO3wVXJDI1HQ",
+    publishedTime: "2 days ago",
+    channelTitle: "Dave Lee",
+    channelAvatar:
+        "https://yt3.ggpht.com/a/AATXAJwsFn2XyD55vVR6Ykhso93F1qaY-D0NrMDh5B5K4A=s48-c-k-c0xffffffff-no-rj-mo",
+    viewCount: "180K views",
+    likeCount: "18K",
+    dislikeCount: "244",
+  ),
+  YoutubeModel(
     title: "Dune Official Trailer",
     description:
         "Beyond fear, destiny awaits. Watch the trailer for the highly anticipated #DuneMovie now. ",
@@ -147,31 +173,5 @@ List<YoutubeModel> youtubeSubscription = [
     viewCount: "484K views",
     likeCount: "45K",
     dislikeCount: "541",
-  ),
-  YoutubeModel(
-    title: "My Cleanest Setup - RGB Free",
-    description: "This is the cleanest setup I've done to date.",
-    thumbnail:
-        "https://i.ytimg.com/vi/haMV_nkkYsA/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLD-mXTWbph48dVQlacO3wVXJDI1HQ",
-    publishedTime: "2 days ago",
-    channelTitle: "Dave Lee",
-    channelAvatar:
-        "https://yt3.ggpht.com/a/AATXAJwsFn2XyD55vVR6Ykhso93F1qaY-D0NrMDh5B5K4A=s48-c-k-c0xffffffff-no-rj-mo",
-    viewCount: "180K views",
-    likeCount: "18K",
-    dislikeCount: "244",
-  ),
-  YoutubeModel(
-    title: "My Cleanest Setup - RGB Free",
-    description: "This is the cleanest setup I've done to date.",
-    thumbnail:
-        "https://i.ytimg.com/vi/haMV_nkkYsA/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLD-mXTWbph48dVQlacO3wVXJDI1HQ",
-    publishedTime: "2 days ago",
-    channelTitle: "Dave Lee",
-    channelAvatar:
-        "https://yt3.ggpht.com/a/AATXAJwsFn2XyD55vVR6Ykhso93F1qaY-D0NrMDh5B5K4A=s48-c-k-c0xffffffff-no-rj-mo",
-    viewCount: "180K views",
-    likeCount: "18K",
-    dislikeCount: "244",
   ),
 ];
