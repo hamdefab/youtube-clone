@@ -13,14 +13,14 @@ class SuggestionsTab extends StatelessWidget {
         child: ListView(
           padding: EdgeInsets.only(left: 5),
           scrollDirection: Axis.horizontal,
-          children: getTags(),
+          children: _getTags(),
           shrinkWrap: false,
         ),
       ),
     );
   }
 
-  List<Widget> getTags() {
+  List<Widget> _getTags() {
     List<Widget> tags = [];
     for (int i = 0; i < 7; i++) {
       tags.add(Container(

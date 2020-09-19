@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:youtube_clone/screens/explore.dart';
 import 'package:youtube_clone/screens/home.dart';
+import 'package:youtube_clone/screens/subscription.dart';
 
 class MainPage extends StatefulWidget {
   @override
@@ -21,7 +22,7 @@ class _MainPageState extends State<MainPage> {
     List<Widget> _screens = [
       HomeScreen(),
       Explore(),
-      Center(child: Text('Subsctiption')),
+      Subscription(),
       Center(child: Text('Notification')),
       Center(child: Text('Library')),
     ];
